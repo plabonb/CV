@@ -6,26 +6,33 @@
   font-family:Century Gothic;
   vertical-align: top;
   position: relative;
-  background:#dcdcdc;
+  background:hwb(0 100% 0%);
   
 }
 html,body{
   width: 100%; height: 150%;
   padding: 0px; margin: 0px;
-  background-color:#5d5c61;
+  background-color:#000000;
 }
 
 .resume{
   border:solid 0px;
   display: flex;
-  width: 1200px; 
-  height: 1380px;
+  width: 21cm; 
+  height: 29.7cm;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  box-shadow: 10px 20px 30px -5px rgba(0,0,0,0.3);
+  box-shadow: 10px 20px 30px -5px rgba(255, 255, 255, 0.3);
+  font-family: 'Helvetica', sans-serif;
   
 }
+.link{
+  text-decoration: none;
+  color: #42bef7;
+
+}
+
 .right,.left{
   display: inline-block;
   box-sizing:border-box;
@@ -33,59 +40,74 @@ html,body{
 }
 .left{
   border:solid 0px;
-  height:1180px;
+  height:80%;
   width: 60%;
   line-height:20px;
   text-align:center;
-  font-family: Helvetica;
-  left:40px;
+  left: 30px;
+  top: 15px;
+  line-height: 0.5cm;
 }
 .right{
-  left:5%;
+  left:35px;
   text-align: left;
-  height: 1180px;
+  height: 80%;
   width: 30%;
+  
+}
+.text_color{
+  color: #42bef7;
+  font-size: 20px;
 }
 
 
 
 img{
-  width: 200px;
-  height: 200px;
+  width: 2.5cm;
+  height: 3cm;
   border-radius: 0;
   top:5px;
 }
 
 .name {
   text-align:left;
-  left:5px;
-  font-size: 14px;
+  font-size: 10px;
   line-height: .5px;
   letter-spacing:.5px;
 }
 .name h2{
-  font-size: 50px;
+  font-size: 35px;
 }
-
 .Exprience{
   text-align: left;
-  left: 5px;
-  font-size: 14px;
+  font-size: 12px;
+  top: 10px;
 }
 
 .Education{
   text-align: left;
-  left: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .Skill{
   text-align: left;
-  left: 5px;
-  font-size: 14px;
+  font-size: 10px;
 }
+.skill h3{
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: monospace;
+  color: azure;
+}
+
+
+
+
+
+
 .Project{
   text-align: left;
   left: 5px;
-  font-size: 14px;
+  font-size: 12px;
+  line-height:0.5cm;
 }
 
